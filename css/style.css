@@ -1,0 +1,53 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+header {
+  background-color: black;
+}
+
+section {
+  margin-bottom: 60px;
+}
+
+#flex-container {
+  flex-direction: row;
+  background-color: black;
+  color: white;
+  height: 250px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+span {
+  border: 2px solid white;
+  margin-left: 20px;
+  padding: 10px;
+
+}
+
+#header-img {
+  width: 150px;
+  float: left;
+}
+
+#video {
+  margin-top: 200px;
+}
+
+.nav-link {
+  float: right;
+  line-height: 30px;
+  font-size: 20px;
+  border-radius: 4px;
+  padding-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+a:hover {
+  font-weight: bold;
+}

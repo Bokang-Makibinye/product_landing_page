@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      header {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+      }
+
+      @media screen and (max-width: 600px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+}
+
+  #flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    </style>
+
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+  <section id="home">
+    <header id="header">
+      <img src="https://i.ibb.co/Vx0NrCN/image1.png" alt="company-logo" id="header-img">
+      <nav id="nav-bar">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#request-catalogue" class="nav-link">Request Flowers catalogue</a>
+        <a href="#buy-product" class="nav-link">Buy Product</a>
+      </nav>
+    </header>
+      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/3QaJu-rjAxY" title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+      </iframe>
+
+    </section>
+
+    <section id="request-catalogue">
+      <form action="https://www.freecodecamp.com/email-submit" method="post" id="form">
+        <input type="email" name="email" placeholder="Enter your email here.." id="email">
+        <input type="submit" id="submit">
+      </form>
+    </section>
+
+    <section id="buy-product">
+      <div id="flex-container">
+        <div class="flex-box-shadow">
+          <a href="#"><span>Buy Online</span></a>
+        </div>
+        <div class="flex-box-shadow">
+         <a href="#"><span>Find Nearest Store</span></a>
+        </div>
+        <div class="flex-box-shadow">
+         <a href="#"><span>Request a Quote</span></a>  
+        </div>
+      </div>
+    </section>
+
+  </body>
+
+ <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" charset="utf-8"></script>
+
+
+</html>
